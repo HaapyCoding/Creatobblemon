@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":{
+    "layer0": "creatobblemon:item/balls/unprocessed/unprocessed_ancient_great_ball"
+  }
+}

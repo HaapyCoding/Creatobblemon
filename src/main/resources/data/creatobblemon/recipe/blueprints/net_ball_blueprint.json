@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "cobblemon:net_ball" }
+  ],
+  "result": { "id": "creatobblemon:net_ball_blueprint"}
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "creatobblemon:hyper_potion_source"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:hyper_potion"
+    }
+  ]
+}

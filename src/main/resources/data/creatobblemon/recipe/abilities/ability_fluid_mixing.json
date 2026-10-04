@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:medicinal_brew_source"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:ability_solution_source",
+      "amount": 1000
+    }
+  ]
+}

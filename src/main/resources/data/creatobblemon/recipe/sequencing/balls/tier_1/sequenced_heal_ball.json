@@ -1,0 +1,111 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:copper_blank_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_heal_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:heal_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+	{
+	"type": "create:deploying",
+	"ingredients": [
+		{
+		"item": "creatobblemon:unprocessed_heal_ball"
+		},
+		{
+		"item": "creatobblemon:heal_ball_blueprint"
+		}
+	],
+	"results": [
+		{
+		"id": "creatobblemon:unprocessed_heal_ball"
+		}
+	]
+	},
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_heal_ball"
+        },
+        {
+          "item": "creatobblemon:white_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_heal_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_heal_ball"
+        },
+        {
+          "item": "creatobblemon:pink_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_heal_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_heal_ball"
+        },
+        {
+          "item": "creatobblemon:white_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_heal_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_heal_ball"
+        },
+        {
+          "item": "creatobblemon:pink_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_heal_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_heal_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_heal_ball"
+        }
+      ]
+    }
+  ]
+}

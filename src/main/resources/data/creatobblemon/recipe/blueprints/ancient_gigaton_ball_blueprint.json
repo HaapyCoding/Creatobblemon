@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "cobblemon:ancient_gigaton_ball" }
+  ],
+  "result": { "id": "creatobblemon:ancient_gigaton_ball_blueprint"}
+}

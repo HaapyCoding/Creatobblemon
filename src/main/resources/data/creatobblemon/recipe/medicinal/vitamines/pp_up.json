@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:medicinal_brew_source"
+    },
+    { "item": "cobblemon:vivichoke"}
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:pp_up_source",
+      "amount": 1000
+    }
+  ]
+}

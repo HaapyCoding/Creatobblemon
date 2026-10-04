@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_diamond_half_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "creatobblemon:diamond_half_ball",
+      "count": 16
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_diamond_half_ball"
+        }
+      ],
+      "processingTime": 20,
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_diamond_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_diamond_half_ball"
+        },
+        {
+          "tag": "create:sandpaper"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_diamond_half_ball"
+        }
+      ]
+    }
+  ]
+}

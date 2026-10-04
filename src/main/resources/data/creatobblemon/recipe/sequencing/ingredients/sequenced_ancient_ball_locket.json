@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:ball_lock"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "creatobblemon:ball_lock",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        { "item": "creatobblemon:ball_lock" }
+      ],
+      "results": [ {"id": "creatobblemon:ball_lock"} ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        { "item": "creatobblemon:ball_lock" }
+      ],
+      "results": [ {"id": "creatobblemon:ball_lock"}
+      ]
+    }
+  ]
+}

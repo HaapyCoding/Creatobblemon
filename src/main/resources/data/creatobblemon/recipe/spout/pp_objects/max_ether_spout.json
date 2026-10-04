@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "creatobblemon:max_ether_source"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:max_ether"
+    }
+  ]
+}

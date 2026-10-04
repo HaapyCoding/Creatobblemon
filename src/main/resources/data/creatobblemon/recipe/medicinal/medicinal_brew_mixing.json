@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item": "cobblemon:medicinal_leek"
+    }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:medicinal_brew_source",
+      "amount": 1000
+    }
+  ]
+}

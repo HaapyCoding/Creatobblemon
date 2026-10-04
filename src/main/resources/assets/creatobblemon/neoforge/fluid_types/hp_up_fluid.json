@@ -1,0 +1,6 @@
+{
+  "still_texture": "minecraft:block/water_still",
+  "flowing_texture": "minecraft:block/water_flow",
+  "tint_color": "E74C3C",
+  "translation_key": "fluid.creatobblemon.hp_up"
+}

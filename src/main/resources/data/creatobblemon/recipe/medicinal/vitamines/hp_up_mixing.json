@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:pp_up_source"
+    },
+    { "item": "cobblemon:pomeg_berry"}, { "item": "cobblemon:pomeg_berry"},
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:hp_up_source",
+      "amount": 1000
+    }
+  ]
+}

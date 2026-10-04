@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "minecraft:honeycomb"},
+    { "item": "minecraft:honeycomb"},
+    { "item": "minecraft:honeycomb"},
+    { "item": "cobblemon:tamato_berry"},
+    { "item": "cobblemon:tamato_berry"},
+    { "item": "cobblemon:tamato_berry"},
+    { "item": "cobblemon:exp_candy_l"}
+  ],
+  "results": [ {"id": "cobblemon:quick_candy","count": 1} ]
+}

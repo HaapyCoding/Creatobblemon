@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 333,
+      "fluid": "creatobblemon:ability_solution_source"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:ability_capsule"
+    }
+  ]
+}

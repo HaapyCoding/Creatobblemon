@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_iron_half_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "creatobblemon:iron_half_ball",
+      "count": 12
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ],
+      "processingTime": 20,
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_iron_half_ball"
+        }
+      ]
+    }
+  ]
+}

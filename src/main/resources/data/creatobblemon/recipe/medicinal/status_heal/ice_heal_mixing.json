@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:aspear_berry"
+    }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:ice_heal_source",
+      "amount": 1000
+    }
+  ]
+}

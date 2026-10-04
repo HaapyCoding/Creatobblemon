@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:diamond_half_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_diamond_blank_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "creatobblemon:diamond_blank_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_diamond_blank_ball"
+        },
+        {
+          "item": "creatobblemon:diamond_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_diamond_blank_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_diamond_blank_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_diamond_blank_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_diamond_blank_ball"
+        },
+        {
+          "item": "creatobblemon:ball_button"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_diamond_blank_ball"
+        }
+      ]
+    }
+  ]
+}

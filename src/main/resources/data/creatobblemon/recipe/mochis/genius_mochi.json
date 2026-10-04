@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "create:honey"
+    },
+    { "item": "cobblemon:hearty_grains"},
+    { "item": "cobblemon:hondew_berry"}
+  ],
+  "results": [ {"id": "cobblemon:genius_mochi","count": 4} ]
+}

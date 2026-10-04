@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "creatobblemon:master_ball_upper_half" },
+  "transitional_item": { "id": "creatobblemon:master_ball_lower_half" },
+  "loops": 1,
+  "results": [ { "id": "creatobblemon:master_ball_lower_half", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:master_ball_lower_half" },
+        { "tag": "create:sandpaper" }
+      ],
+      "results": [ { "id": "creatobblemon:master_ball_lower_half" } ]
+    },
+	 {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:master_ball_lower_half" },
+        { "tag": "create:sandpaper" }
+      ],
+      "results": [ { "id": "creatobblemon:master_ball_lower_half" } ]
+    },
+	 {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:master_ball_lower_half" },
+        { "tag": "create:sandpaper" }
+      ],
+      "results": [ { "id": "creatobblemon:master_ball_lower_half" } ]
+    }
+  ]
+}

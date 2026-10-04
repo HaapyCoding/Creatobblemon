@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creatobblemon:item/ingredients/unprocessed_gold_ancient_blank_ball"
+  }
+}

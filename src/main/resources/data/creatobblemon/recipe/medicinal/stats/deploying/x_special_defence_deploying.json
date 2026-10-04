@@ -1,0 +1,13 @@
+{
+  "type": "create:deploying",
+  "heat_requirement": "none",
+  "ingredients": [
+    { "item": "creatobblemon:glass_vial" },
+    { "item": "creatobblemon:special_defence_pills" }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:x_special_defence"
+    }
+  ]
+}

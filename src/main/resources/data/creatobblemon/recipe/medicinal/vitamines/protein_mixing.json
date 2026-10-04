@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:pp_up_source"
+    },
+    { "item": "cobblemon:kelpsy_berry"}, { "item": "cobblemon:kelpsy_berry"},
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:protein_source",
+      "amount": 1000
+    }
+  ]
+}

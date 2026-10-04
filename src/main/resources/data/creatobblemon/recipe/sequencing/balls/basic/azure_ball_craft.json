@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:copper_blank_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_azure_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:azure_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_azure_ball"
+        },
+        {
+          "item": "cobblemon:blue_apricorn"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_azure_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_azure_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_azure_ball"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:iron_blank_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_sport_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:sport_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_sport_ball" },
+        { "item": "creatobblemon:sport_ball_blueprint" }
+      ],
+      "results": [{ "id": "creatobblemon:unprocessed_ball" }]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_sport_ball"
+        },
+        {
+          "item": "creatobblemon:red_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_sport_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_sport_ball"
+        },
+        {
+          "item": "creatobblemon:white_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_sport_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_sport_ball"
+        },
+        {
+          "item": "creatobblemon:red_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_sport_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_sport_ball"
+        },
+        {
+          "item": "creatobblemon:red_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_sport_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_sport_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_sport_ball"
+        }
+      ]
+    }
+  ]
+}

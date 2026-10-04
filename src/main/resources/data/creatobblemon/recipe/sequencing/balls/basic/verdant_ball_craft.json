@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:copper_blank_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_verdant_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:verdant_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_verdant_ball"
+        },
+        {
+          "item": "cobblemon:green_apricorn"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_verdant_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_verdant_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_verdant_ball"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:hyper_potion_source"
+    },
+    {
+      "item": "cobblemon:vivichoke"
+    }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:max_potion_source",
+      "amount": 1000
+    }
+  ]
+}

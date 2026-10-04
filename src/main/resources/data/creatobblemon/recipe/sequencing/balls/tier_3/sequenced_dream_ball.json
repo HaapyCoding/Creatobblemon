@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "creatobblemon:diamond_blank_ball" },
+  "transitional_item": { "id": "creatobblemon:unprocessed_dream_ball" },
+  "loops": 1,
+  "results": [ { "id": "cobblemon:dream_ball", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_dream_ball" },
+        { "item": "creatobblemon:dream_ball_blueprint" }
+      ],
+      "results": [{ "id": "creatobblemon:unprocessed_dream_ball" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_dream_ball" },
+        { "item": "creatobblemon:pink_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_dream_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_dream_ball" },
+        { "item": "creatobblemon:red_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_dream_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_dream_ball" },
+        { "item": "creatobblemon:pink_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_dream_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_dream_ball" },
+        { "item": "creatobblemon:blue_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_dream_ball" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "creatobblemon:unprocessed_dream_ball" } ],
+      "results": [ { "id": "creatobblemon:unprocessed_dream_ball" } ]
+    }
+  ]
+}

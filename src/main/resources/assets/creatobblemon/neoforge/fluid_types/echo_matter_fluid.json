@@ -1,0 +1,6 @@
+{
+  "still_texture": "minecraft:block/lava_still",
+  "flowing_texture": "minecraft:block/lava_flow",
+  "tint_color": "FFFFFF",
+  "translation_key": "fluid.creatobblemon.echo_matter"
+}

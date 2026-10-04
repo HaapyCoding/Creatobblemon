@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:copper_blank_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_poke_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:poke_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_poke_ball"
+        },
+        {
+          "item": "cobblemon:red_apricorn"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_poke_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_poke_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_poke_ball"
+        }
+      ]
+    }
+  ]
+}

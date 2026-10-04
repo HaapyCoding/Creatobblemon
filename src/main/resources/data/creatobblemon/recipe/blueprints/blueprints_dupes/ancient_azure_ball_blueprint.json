@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "creatobblemon:ancient_azure_ball_blueprint" }
+  ],
+  "result": { "id": "creatobblemon:ancient_azure_ball_blueprint", "count": 2 }
+}

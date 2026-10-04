@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":{
+    "layer0": "creatobblemon:item/balls/unprocessed/unprocessed_friend_ball"
+  }
+}
+
+
+

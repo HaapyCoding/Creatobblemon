@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "cobblemon:tumblestone_cluster",
+              "conditions": [
+                { "condition": "minecraft:match_tool", "predicate": { "item": "minecraft:silk_touch" } }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "cobblemon:tumblestone_shard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:tumblestone_cluster"
+        }
+      ]
+    }
+  ]
+}

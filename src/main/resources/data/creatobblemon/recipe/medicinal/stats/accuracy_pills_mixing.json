@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "cobblemon:pep_up_flower" },
+    { "item": "minecraft:bone_meal" },
+    { "item": "cobblemon:micle_berry" }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:accuracy_pills",
+      "count": 5
+    }
+  ]
+}

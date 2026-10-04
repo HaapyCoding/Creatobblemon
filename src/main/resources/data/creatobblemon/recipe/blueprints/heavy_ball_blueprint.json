@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "cobblemon:heavy_ball" }
+  ],
+  "result": { "id": "creatobblemon:heavy_ball_blueprint"}
+}

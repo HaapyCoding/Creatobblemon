@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "cobblemon:fast_ball" }
+  ],
+  "result": { "id": "creatobblemon:fast_ball_blueprint"}
+}

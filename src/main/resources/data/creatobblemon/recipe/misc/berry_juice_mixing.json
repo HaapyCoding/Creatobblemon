@@ -1,0 +1,12 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "tag": "cobblemon:berries"},{ "tag": "cobblemon:berries"}
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:berry_juice_source",
+      "amount": 333
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "cobblemon:enigma_berry"},
+    { "item": "cobblemon:enigma_berry"},
+    { "item": "cobblemon:enigma_berry"},
+    { "item": "cobblemon:grepa_berry"},
+    { "item": "cobblemon:grepa_berry"},
+    { "item": "cobblemon:grepa_berry"},
+    { "item": "cobblemon:exp_candy_l"}
+  ],
+  "results": [ {"id": "cobblemon:coward_candy","count": 1} ]
+}

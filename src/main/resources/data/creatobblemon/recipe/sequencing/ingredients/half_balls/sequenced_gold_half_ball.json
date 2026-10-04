@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:golden_sheet"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_gold_half_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "creatobblemon:gold_half_ball",
+      "count": 12
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ],
+      "processingTime": 20,
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_gold_half_ball"
+        }
+      ]
+    }
+  ]
+}

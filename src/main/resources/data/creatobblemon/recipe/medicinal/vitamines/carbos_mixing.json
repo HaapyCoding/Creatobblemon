@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:pp_up_source"
+    },
+    { "item": "cobblemon:tamato_berry"}, { "item": "cobblemon:tamato_berry"},
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:carbos_source",
+      "amount": 1000
+    }
+  ]
+}

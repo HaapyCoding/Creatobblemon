@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "cobblemon:dusk_ball" }
+  ],
+  "result": { "id": "creatobblemon:dusk_ball_blueprint"}
+}

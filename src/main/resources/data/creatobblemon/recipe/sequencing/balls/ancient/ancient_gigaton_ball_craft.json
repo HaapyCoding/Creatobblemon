@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "creatobblemon:gold_ancient_blank_ball" },
+  "transitional_item": { "id": "creatobblemon:unprocessed_ancient_gigaton_ball" },
+  "loops": 1,
+  "results": [ { "id": "cobblemon:ancient_gigaton_ball", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_ancient_gigaton_ball" },
+        { "item": "creatobblemon:ancient_gigaton_ball_blueprint" }
+      ],
+      "results": [{ "id": "creatobblemon:unprocessed_ancient_gigaton_ball" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_ancient_gigaton_ball" },
+        { "item": "creatobblemon:black_tumblestone_powder" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_ancient_gigaton_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_ancient_gigaton_ball" },
+        { "item": "creatobblemon:black_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_ancient_gigaton_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_ancient_gigaton_ball" },
+        { "item": "creatobblemon:black_tumblestone_powder" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_ancient_gigaton_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_ancient_gigaton_ball" },
+        { "item": "creatobblemon:black_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_ancient_gigaton_ball" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "creatobblemon:unprocessed_ancient_gigaton_ball" } ],
+      "results": [ { "id": "creatobblemon:unprocessed_ancient_gigaton_ball" } ]
+    }
+  ]
+}

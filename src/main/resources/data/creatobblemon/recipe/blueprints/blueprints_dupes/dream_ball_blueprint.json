@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "creatobblemon:dream_ball_blueprint" }
+  ],
+  "result": { "id": "creatobblemon:dream_ball_blueprint", "count": 2 }
+}

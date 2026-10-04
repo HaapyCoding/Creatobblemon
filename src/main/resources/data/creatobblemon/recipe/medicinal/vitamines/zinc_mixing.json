@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "creatobblemon:pp_up_source"
+    },
+    { "item": "cobblemon:grepa_berry"}, { "item": "cobblemon:grepa_berry"},
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:zinc_source",
+      "amount": 1000
+    }
+  ]
+}

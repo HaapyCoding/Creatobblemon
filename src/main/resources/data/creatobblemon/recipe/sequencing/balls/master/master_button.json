@@ -1,0 +1,38 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:nether_star" },
+  "transitional_item": { "id": "creatobblemon:unprocessed_master_button" },
+  "loops": 1,
+  "results": [ { "id": "creatobblemon:master_button", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [ { "item": "creatobblemon:unprocessed_master_button" } ],
+      "results": [ { "id": "creatobblemon:unprocessed_master_button" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_master_button" },
+        { "tag": "create:sandpaper" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_master_button" } ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_master_button" },
+        { "tag": "create:sandpaper" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_master_button" } ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_master_button" },
+        { "tag": "create:sandpaper" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_master_button" } ]
+    }
+  ]
+}

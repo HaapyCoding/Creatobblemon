@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures":{
+    "layer0": "creatobblemon:item/ingredients/master_ball_lower_half"
+  }
+}

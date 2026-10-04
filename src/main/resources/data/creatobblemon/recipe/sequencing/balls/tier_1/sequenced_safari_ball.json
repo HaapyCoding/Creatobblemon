@@ -1,0 +1,111 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "creatobblemon:copper_blank_ball"
+  },
+  "transitional_item": {
+    "id": "creatobblemon:unprocessed_safari_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:safari_ball",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+	"type": "create:deploying",
+	"ingredients": [
+		{
+		"item": "creatobblemon:unprocessed_safari_ball"
+		},
+		{
+		"item": "creatobblemon:safari_ball_blueprint"
+		}
+	],
+	"results": [
+		{
+		"id": "creatobblemon:unprocessed_safari_ball"
+		}
+	]
+	},
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_safari_ball"
+        },
+        {
+          "item": "creatobblemon:green_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_safari_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_safari_ball"
+        },
+        {
+          "item": "creatobblemon:yellow_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_safari_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_safari_ball"
+        },
+        {
+          "item": "creatobblemon:green_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_safari_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_safari_ball"
+        },
+        {
+          "item": "creatobblemon:white_apricorn_shell"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_safari_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "creatobblemon:unprocessed_safari_ball"
+        }
+      ],
+      "results": [
+        {
+          "id": "creatobblemon:unprocessed_safari_ball"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "creatobblemon:blank_blueprint" },
+    { "item": "cobblemon:dive_ball" }
+  ],
+  "result": { "id": "creatobblemon:dive_ball_blueprint"}
+}

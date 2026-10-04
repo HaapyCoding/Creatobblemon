@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "cobblemon:pep_up_flower" },
+    { "item": "minecraft:bone_meal" },
+    { "item": "cobblemon:tamato_berry" }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:hit_pills",
+      "count": 5
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "creatobblemon:item/blueprints/master_ball_blueprint"
+  }
+}

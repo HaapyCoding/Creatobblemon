@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "creatobblemon:iron_blank_ball" },
+  "transitional_item": { "id": "creatobblemon:unprocessed_heavy_ball" },
+  "loops": 1,
+  "results": [ { "id": "cobblemon:heavy_ball", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_heavy_ball" },
+        { "item": "creatobblemon:heavy_ball_blueprint" }
+      ],
+      "results": [{ "id": "creatobblemon:unprocessed_heavy_ball" }]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_heavy_ball" },
+        { "item": "creatobblemon:blue_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_heavy_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_heavy_ball" },
+        { "item": "creatobblemon:black_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_heavy_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_heavy_ball" },
+        { "item": "creatobblemon:blue_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_heavy_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_heavy_ball" },
+        { "item": "creatobblemon:black_apricorn_shell" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_heavy_ball" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "creatobblemon:unprocessed_heavy_ball" } ],
+      "results": [ { "id": "creatobblemon:unprocessed_heavy_ball" } ]
+    }
+  ]
+}

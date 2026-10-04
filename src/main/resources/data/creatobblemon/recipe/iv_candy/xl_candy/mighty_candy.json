@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "minecraft:honeycomb"},
+    { "item": "minecraft:honeycomb"},
+    { "item": "minecraft:honeycomb"},
+    { "item": "cobblemon:kelpsy_berry"},
+    { "item": "cobblemon:kelpsy_berry"},
+    { "item": "cobblemon:kelpsy_berry"},
+    { "item": "cobblemon:exp_candy_xl"}
+  ],
+  "results": [ {"id": "cobblemon:mighty_candy","count": 3} ]
+}

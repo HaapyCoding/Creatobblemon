@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "minecraft:echo_shard" }
+  ],
+  "results": [
+    {
+      "id": "creatobblemon:echo_matter_source",
+      "amount": 250
+    }
+  ]
+}

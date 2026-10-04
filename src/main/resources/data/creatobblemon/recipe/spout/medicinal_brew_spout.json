@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 333,
+      "fluid": "creatobblemon:medicinal_brew_source"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:medicinal_brew"
+    }
+  ]
+}

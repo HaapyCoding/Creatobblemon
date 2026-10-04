@@ -1,0 +1,32 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:shulker_shell" },
+  "transitional_item": { "id": "creatobblemon:master_ball_upper_half" },
+  "loops": 1,
+  "results": [ { "id": "creatobblemon:master_ball_upper_half", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:master_ball_upper_half" },
+        { "item": "minecraft:netherite_ingot" }
+      ],
+      "results": [ { "id": "creatobblemon:master_ball_upper_half" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "creatobblemon:master_ball_upper_half" } ],
+      "results": [ { "id": "creatobblemon:master_ball_upper_half" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "creatobblemon:master_ball_upper_half" } ],
+      "results": [ { "id": "creatobblemon:master_ball_upper_half" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "creatobblemon:master_ball_upper_half" } ],
+      "results": [ { "id": "creatobblemon:master_ball_upper_half" } ]
+    }
+  ]
+}

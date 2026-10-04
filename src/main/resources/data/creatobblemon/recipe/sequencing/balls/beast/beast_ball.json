@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "creatobblemon:diamond_blank_ball" },
+  "transitional_item": { "id": "creatobblemon:unprocessed_beast_ball" },
+  "loops": 1,
+  "results": [ { "id": "cobblemon:beast_ball", "count": 1 } ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_beast_ball" },
+        {
+          "type": "neoforge:single",
+          "amount": 100,
+          "fluid": "creatobblemon:echo_matter_source"
+        }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_beast_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_beast_ball" },
+        { "item": "creatobblemon:gold_curve" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_beast_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_beast_ball" },
+        { "item": "creatobblemon:gold_curve" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_beast_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_beast_ball" },
+        { "item": "creatobblemon:gold_curve" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_beast_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "creatobblemon:unprocessed_beast_ball" },
+        { "item": "creatobblemon:gold_curve" }
+      ],
+      "results": [ { "id": "creatobblemon:unprocessed_beast_ball" } ]
+    }
+  ]
+}

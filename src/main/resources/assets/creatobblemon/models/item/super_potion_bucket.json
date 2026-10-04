@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creatobblemon:item/super_potion_bucket"
+  }
+}
